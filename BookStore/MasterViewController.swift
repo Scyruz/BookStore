@@ -48,7 +48,6 @@ class MasterViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 }
             }
         }
-
-
+    
 }
 

@@ -16,12 +16,15 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var descriptionTextView: UITextView!
     
+    @IBOutlet weak var ratingLabel: UILabel!
+    
     func configureView() {
             // Update the user interface for the detail item.
             if let myBook = detailItem {
                 titleLabel.text = myBook.title
                 authorLabel.text = myBook.author
                 descriptionTextView.text = myBook.description
+                ratingLabel.text = String(myBook.rating)
             }
         }
     
@@ -38,6 +41,10 @@ class DetailViewController: UIViewController {
         }
     }
 
+    
+    @IBAction func cancel(sender: AnyObject){
+        dismiss(animated: false, completion: nil)
+    }
 
 }
 
