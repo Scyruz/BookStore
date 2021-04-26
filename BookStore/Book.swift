@@ -12,4 +12,6 @@ class Book{
     var author: String = ""
     var description: String = ""
     var rating: Double = 0.0
+    var pages: Int = 0
+    var readThisBook: Bool = false
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34644DCF26362CB5005E3630 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34644DCE26362CB5005E3630 /* AddViewController.swift */; };
+		34644DD226363401005E3630 /* BookStoreDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34644DD126363401005E3630 /* BookStoreDelegate.swift */; };
 		34D305EF25F30F410059CB18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D305EE25F30F410059CB18 /* AppDelegate.swift */; };
 		34D305F125F30F410059CB18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D305F025F30F410059CB18 /* SceneDelegate.swift */; };
 		34D305F325F30F410059CB18 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D305F225F30F410059CB18 /* MasterViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34644DCE26362CB5005E3630 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		34644DD126363401005E3630 /* BookStoreDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreDelegate.swift; sourceTree = "<group>"; };
 		34D305EB25F30F410059CB18 /* BookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D305EE25F30F410059CB18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34D305F025F30F410059CB18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				34D305EE25F30F410059CB18 /* AppDelegate.swift */,
+				34644DCE26362CB5005E3630 /* AddViewController.swift */,
 				34D305F025F30F410059CB18 /* SceneDelegate.swift */,
 				34D305F225F30F410059CB18 /* MasterViewController.swift */,
 				34D3060B25F315CD0059CB18 /* DetailViewController.swift */,
@@ -72,6 +77,7 @@
 				34D305FC25F30F420059CB18 /* Info.plist */,
 				34EB3CFE25F854E7006CE029 /* Book.swift */,
 				34EB3D0225F85518006CE029 /* BookStore.swift */,
+				34644DD126363401005E3630 /* BookStoreDelegate.swift */,
 			);
 			path = BookStore;
 			sourceTree = "<group>";
@@ -148,8 +154,10 @@
 			files = (
 				34D305F325F30F410059CB18 /* MasterViewController.swift in Sources */,
 				34EB3CFF25F854E7006CE029 /* Book.swift in Sources */,
+				34644DCF26362CB5005E3630 /* AddViewController.swift in Sources */,
 				34EB3D0325F85518006CE029 /* BookStore.swift in Sources */,
 				34D305EF25F30F410059CB18 /* AppDelegate.swift in Sources */,
+				34644DD226363401005E3630 /* BookStoreDelegate.swift in Sources */,
 				34D3060C25F315CD0059CB18 /* DetailViewController.swift in Sources */,
 				34D305F125F30F410059CB18 /* SceneDelegate.swift in Sources */,
 			);
