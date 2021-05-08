@@ -58,7 +58,9 @@ class AddViewController: UIViewController {
                     }
                     
                 }
-       
+        else {
+            self.title = "Add Book"
+        }
     }
 
 }
