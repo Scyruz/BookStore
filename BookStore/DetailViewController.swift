@@ -26,6 +26,8 @@ class DetailViewController: UIViewController {
 
     
     func configureView() {
+        readSwitch.isEnabled = false
+        
             // Update the user interface for the detail item.
             if let detailBook = detailItem {
                 myBook = detailBook
